@@ -1,0 +1,247 @@
+*{
+    font-family: "Euphemia", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    background: #000;
+    border: solid 1px #00e600;
+    border-radius: 5px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #00e600;
+    border-radius: 5px;
+    width: 10px;
+}
+
+body{
+    margin: 0;
+    background: #000;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #fff;
+}
+
+nav a{
+    color: #000;
+    transition: 0.6s;
+}
+
+nav a:hover{
+    color: #00e600;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu .menu_in{
+    padding-left: 3rem;
+}
+
+.menu span{
+    color: #00e600;
+}
+
+.search {
+    display: flex;
+}
+
+.search input{
+    width: 30vh;
+    height: 5vh;
+    color: #393939;
+    padding-left: 1rem;
+    border: none;
+}
+
+.search button{
+    background: #00e600;
+    color: #000;
+    border: none;
+    width: 8vh;
+}
+
+.menu img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.menu_cards .card{
+    width: 30%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.price_card{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding:0 2rem 0;
+}
+
+section h2{
+    font-size: 60px;
+    padding-left: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.price_card .right{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.price_card .right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.readm{
+    width: 15vh;
+    height: 3.5vh;
+    background: #00e600;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.readm:hover{
+    background: #000;
+    border: solid 2px #00e600;
+    color: #00e600;
+}
+
+.readm:active{
+    box-shadow: 1px 1px 20px #00e600;
+}
+
+.Veiw_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.Veiw_cards .card img{
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.Veiw_cards .card:hover img{
+    box-shadow: 2px 2px 20px #00e600;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 70vh;
+    background: url(./image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 1rem;
+    margin-top: 3rem;
+
+}
+
+footer .left{
+    width: 70%;
+}
+
+footer img{
+    width: 70%;
+    border-radius: 30px;
+    height: 35vh;
+    margin-left: 4rem;
+}
+
+footer .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .ftr_search{
+    display: flex;
+}
+
+footer .ftr_search button{
+    color: #000;
+    background: #00e600;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+}
+
+footer .ftr_search input{
+    border: none;
+    color: #565353;
+    padding-left: 1rem;
+}
+
+footer .ftr_l{
+    display: flex;
+}
+
+footer .icons{
+    font-size: 24px;
+    display: flex;
+    gap: 1rem;
+}
+
+.end{
+    text-align: center;
+}
+
+.end span{
+    color: #00e600;
+}
